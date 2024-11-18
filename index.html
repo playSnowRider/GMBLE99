@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="blackjack.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to Blackjack</h1>
+    <p>Your goal is to get as close to 21 as possible without going over!</p>
+    <div id="game">
+        <div>
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="drawCard()">Draw Card</button>
+            <button onclick="endGame()">End Game</button>
+        </div>
+        <p id="playerCards">Your Cards: </p>
+        <p id="dealerCards">Dealer's Cards: </p>
+        <p id="gameResult"></p>
+    </div>
+</body>
+</html>
